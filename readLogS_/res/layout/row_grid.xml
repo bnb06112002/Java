@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp" android:orientation="horizontal" android:focusable="true">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/home" android:clickable="true" android:focusable="true" android:layout_gravity="center_vertical|left">
+    </ImageView>
+    <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="New Text doifgodifug dofigodifugio"
+            android:id="@+id/textTime" android:layout_gravity="center_vertical|left|right" android:singleLine="false"
+            android:textSize="15dp" android:textColor="#4397ff"/>
+    <TextView
+        android:id="@+id/textDistr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" android:textColor="#4397ff" android:singleLine="false"
+        android:layout_gravity="center_vertical|left|right" android:text="sdfsdfsdfgdfg sdfgdfg sdfgdfgdfg dfgdfg "
+        android:enabled="false" android:focusable="false">
+    </TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="New Text doifgodifug dofigodifugio" android:id="@+id/textMsg"
+              android:layout_gravity="center_vertical|left|right" android:singleLine="false" android:textSize="15dp"
+              android:textColor="#4397ff"/>
+
+</LinearLayout>

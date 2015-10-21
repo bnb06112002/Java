@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="syncDB">
+    <output-path>$PROJECT_DIR$/out/artifacts/syncDB</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="includeSystemProGuardCfgFile" value="true" />
+        <option name="keyAlias" value="syncdb" />
+        <option name="keyPassword" value="LGprbjMy" />
+        <option name="keyStorePassword" value="LGprbjMy" />
+        <option name="keyStoreUrl" value="file://$USER_HOME$/keystore/keySyncdb" />
+        <option name="proGuardCfgFileUrl" value="file://$PROJECT_DIR$/proguard-project.txt" />
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="syncDB.apk">
+      <element id="android-final-package" facet="syncDB/android/Android" />
+    </root>
+  </artifact>
+</component>

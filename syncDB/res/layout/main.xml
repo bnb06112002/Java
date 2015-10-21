@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerServer" android:layout_gravity="center_horizontal" android:longClickable="false"
+            />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_gravity="center" android:src="@drawable/refresh"
+                android:onClick="onTobinClick" android:id="@+id/refresh" android:focusableInTouchMode="true"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:id="@+id/btnSetting" android:layout_gravity="center" android:clickable="true"
+                android:src="@drawable/settings" android:onClick="onSettingClick"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:id="@+id/openDB" android:layout_gravity="center" android:src="@drawable/opendocumentdatabase"
+                android:onClick="onOpenDb"/>
+    </LinearLayout>
+    <ProgressBar
+            android:id="@+id/pbDownload"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    <GridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/gridView" android:layout_gravity="left"
+            android:gravity="center|left" android:numColumns="1" android:clickable="true"
+            android:horizontalSpacing="5dp" android:verticalSpacing="5dp"/>
+</LinearLayout>
+
